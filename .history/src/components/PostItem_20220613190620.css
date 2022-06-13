@@ -1,0 +1,14 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    height: 150px;
+    width: 600px;
+    justify-content: space-between;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}

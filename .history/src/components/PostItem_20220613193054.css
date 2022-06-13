@@ -1,0 +1,56 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 15px
+}
+
+.delete {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 16px;
+    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 88px;
+    outline: transparent;
+}
+
+.delete:hover {
+    transform: scale(1.1)
+}
+
+.post__id {
+    font-size: 25px;
+    border: 1px solid black;
+    background: yellow;
+    padding: 5px;
+    border-radius: 3px
+}
+
+.title {
+    font-size: 20px;
+    border: 1px solid black;
+    background: #9191ff;
+    color: white;
+    padding: 5px;
+    border-radius: 3px
+}

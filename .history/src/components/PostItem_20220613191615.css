@@ -1,0 +1,35 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    height: 150px;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+p {
+    margin: 15px
+}
+
+.delete {
+    width: 100px;
+    text-align: center;
+    height: 86px;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 88px;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: relative;
+}
+
